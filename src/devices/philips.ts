@@ -90,6 +90,13 @@ const definitions: Definition[] = [
         extend: philips.extend.light_onoff_brightness(),
     },
     {
+        zigbeeModel: ['LWO006'],
+        model: '9290030520',
+        vendor: 'Philips',
+        description: 'Hue white filament globe G25',
+        extend: philips.extend.light_onoff_brightness(),
+    },
+    {
         zigbeeModel: ['LWO007'],
         model: '9290030521',
         vendor: 'Philips',
@@ -1171,7 +1178,7 @@ const definitions: Definition[] = [
         extend: philips.extend.light_onoff_brightness_colortemp_color(),
     },
     {
-        zigbeeModel: ['LCT024', '440400982841', '440400982842'],
+        zigbeeModel: ['LCT024', '440400982841', '440400982842', 'PCM002'],
         model: '915005733701',
         vendor: 'Philips',
         description: 'Hue White and color ambiance Play Lightbar',
@@ -2736,6 +2743,13 @@ const definitions: Definition[] = [
         vendor: 'Philips',
         description: 'Hue Adore white ambiance bathroom mirror',
         extend: philips.extend.light_onoff_brightness_colortemp({colorTempRange: [153, 454]}),
+    },
+    {
+        zigbeeModel: ['LXC006'],
+        model: '929003498601',
+        vendor: 'Philips',
+        description: 'Play gradient lightstrip for PC (32-34)',
+        extend: philips.extend.light_onoff_brightness_colortemp_color_gradient({colorTempRange: [153, 500]}),
     },
     {
         zigbeeModel: ['LCX001'],
