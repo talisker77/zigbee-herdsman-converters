@@ -230,7 +230,7 @@ const definitions: Definition[] = [
         extend: philips.extend.light_onoff_brightness_colortemp({colorTempRange: [153, 454]}),
     },
     {
-        zigbeeModel: ['915005996801', '915005996901', '929003574401'],
+        zigbeeModel: ['915005996801', '915005996901', '929003574401', '929003531602'],
         model: '915005996901',
         vendor: 'Philips',
         description: 'Hue white ambiance ceiling light Enrave L with Bluetooth',
@@ -2046,6 +2046,13 @@ const definitions: Definition[] = [
         extend: philips.extend.light_onoff_brightness_colortemp_color({colorTempRange: [153, 500]}),
     },
     {
+        zigbeeModel: ['LCO005'],
+        model: '9290031512',
+        vendor: 'Philips',
+        description: 'Hue White & Color Ambiance bulb',
+        extend: philips.extend.light_onoff_brightness_colortemp_color({colorTempRange: [153, 500]}),
+    },
+    {
         zigbeeModel: ['5045131P7'],
         model: '5045131P7',
         vendor: 'Philips',
@@ -2977,6 +2984,13 @@ const definitions: Definition[] = [
         model: '929002966501',
         vendor: 'Philips',
         description: 'Hue White and Color Ambiance Surimu rectangle panel',
+        extend: philips.extend.light_onoff_brightness_colortemp_color({colorTempRange: [153, 500]}),
+    },
+    {
+        zigbeeModel: ['929003598101'],
+        model: '929003598101',
+        vendor: 'Philips',
+        description: 'Hue White & Color Ambiance Surimu round panel',
         extend: philips.extend.light_onoff_brightness_colortemp_color({colorTempRange: [153, 500]}),
     },
     {
